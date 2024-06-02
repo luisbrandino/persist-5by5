@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persist", "Persist\Persist.csproj", "{1446FCA4-CA57-48C9-85EF-8DDFF17B0871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persist", "Persist\Persist.csproj", "{1446FCA4-CA57-48C9-85EF-8DDFF17B0871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{9469F396-F196-40DD-BC7D-116C63606B89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controllers", "Controllers\Controllers.csproj", "{9469F396-F196-40DD-BC7D-116C63606B89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{DB7C6352-38C3-4B44-AAD6-AE82C295279C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{DB7C6352-38C3-4B44-AAD6-AE82C295279C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{624A27B6-9737-4414-A010-A8A25447757D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositories\Repositories.csproj", "{624A27B6-9737-4414-A010-A8A25447757D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{BA3783C1-EF15-422F-970C-80C85F1251ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{BA3783C1-EF15-422F-970C-80C85F1251ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databases", "Databases\Databases.csproj", "{1610B538-DC70-46A3-82B1-A67FB03D4C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databases", "Databases\Databases.csproj", "{1610B538-DC70-46A3-82B1-A67FB03D4C61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileGenerator", "..\FileGenerator\FileGenerator\FileGenerator.csproj", "{F6B0AC34-D31E-4CE5-B684-9D5F49F30E00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadAndPersist", "..\ReadAndPersist\ReadAndPersist\ReadAndPersist.csproj", "{EA4F251D-0A8D-4724-AF43-7BB100C4999A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{1610B538-DC70-46A3-82B1-A67FB03D4C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1610B538-DC70-46A3-82B1-A67FB03D4C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1610B538-DC70-46A3-82B1-A67FB03D4C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B0AC34-D31E-4CE5-B684-9D5F49F30E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B0AC34-D31E-4CE5-B684-9D5F49F30E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B0AC34-D31E-4CE5-B684-9D5F49F30E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B0AC34-D31E-4CE5-B684-9D5F49F30E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4F251D-0A8D-4724-AF43-7BB100C4999A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4F251D-0A8D-4724-AF43-7BB100C4999A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4F251D-0A8D-4724-AF43-7BB100C4999A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4F251D-0A8D-4724-AF43-7BB100C4999A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
